@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-color: #fffae3;
+}
+
+.mainToss {
+    background-color: #fff;
+    padding: 60px 20px;
+    border-radius: 16px;
+    width: 300px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.tossDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tossDiv button {
+    width: 120px;
+    aspect-ratio: 1;
+    border: unset;
+    background-position: center;
+    background-size: contain;
+    background-color: unset;
+    cursor: pointer;
+}
+
+.headBTN {
+    background-image: url(image/Head.png);
+}
+
+.TailBTN {
+    background-image: url(image/Tail.png);
+}
+
+.clearGame {
+    background-color: #fa6400;
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: unset;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: system-ui;
+}
+
+.showResult {
+    margin-top: 28px;
+    font-size: 20px;
+    font-family: system-ui;
+    color: #2b2b2b;
+    text-align: center;
+}
+
+.totalResult {
+    margin: 10px 0 40px !IMPORTANT;
+    font-size: 18px;
+    font-family: system-ui;
+    color: #2b2b2b;
+    text-align: center;
+}
+
+.htSelection {
+    margin: 0 0 32px;
+    text-align: center;
+    font-size: 24px;
+    font-family: system-ui;
+    font-weight: 500;
+    color: #2b2b2b;
+}

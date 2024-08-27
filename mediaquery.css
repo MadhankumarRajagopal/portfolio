@@ -1,0 +1,229 @@
+@media only screen and (max-width: 768px) {
+
+    .col-md-6,
+    .col-md-4,
+    .col-md-4 {
+
+        width: 100%;
+    }
+
+    .padding-adj-lr {
+        padding: 0 20px !Important;
+
+    }
+
+    .navbar-mkr {
+        position: fixed;
+        top: unset;
+        left: 20px;
+        bottom: 20px;
+        width: calc(100% - 40px);
+        z-index: 5;
+        padding: 10px;
+    }
+
+    .navbar-mkr .nav-btns a {
+        font-size: 14px;
+    }
+
+
+
+    .main-head {
+        font-size: 36px;
+    }
+
+
+
+    .tools-mkr .tools-logo {
+        gap: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-img img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .main-img {
+        margin-bottom: 40px;
+    }
+
+    .tools-mkr {
+        padding: 90px 0 40px;
+    }
+
+    .service-snt-div .row {
+        gap: 25px;
+    }
+
+    .portfolio-ent-div .row {
+        gap: 20px;
+    }
+
+    .about-inner-div>img {
+        display: none;
+    }
+
+    .footer-mkr {
+        display: none;
+    }
+
+    .tools-mkr .tools-logo img {
+        width: 30px;
+    }
+
+    .web-body {
+        padding-bottom: 60px !important;
+    }
+
+    .main-home-div .main-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-home-div .main-text p,
+    .main-home-div .main-text h1 {
+        text-align: center;
+    }
+
+    .service-uidev {
+
+        margin-top: 0px !important;
+    }
+
+    .portfolio-ent-div .row>div:nth-child(1),
+    .portfolio-ent-div .row>div:nth-child(2) {
+        margin-bottom: 0px !Important;
+    }
+
+    .navbar-mkr .nav-btns {
+        gap: 10px;
+    }
+
+    .design-quotes-main .design-quotes {
+        font-size: 20px;
+        width: 70%;
+        text-wrap: balance;
+        padding: 20px;
+    }
+
+    .design-quotes-main {
+        bottom: 79%;
+    }
+
+    .popup-image img{
+        
+width: 90%;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .service-uidev {
+        margin-top: 20px;
+    }
+
+    .portfolio-ent-div .row>div:nth-child(1),
+    .portfolio-ent-div .row>div:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    .main-mkr .main-home-div {
+        display: flex;
+        flex-direction: column-reverse;
+        height: fit-content;
+        padding: 20px 20px 130px !important;
+    }
+
+    .service-snt-div .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutme-less p {
+        font-size: 16px;
+    }
+
+    /* about me */
+
+    .aboutme-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* portfolio */
+
+    .portfolio-body{
+        
+padding-bottom: 100px !important;
+    }
+
+    
+    .portfolio-tab-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-tab-flex .nav{
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        margin-bottom: 20px !important;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .portfolio-tab-flex .nav-link{
+        font-size: 14px;
+        width: fit-content;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .portfolio-tab-flex .tab-content{
+        margin: 0 !important;
+        height: auto;
+        overflow: unset;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1350px){
+    .col-lg-4{
+        
+width: 50% !important;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1600px) {
+    .max-1400 {
+        width: 1600px;
+        margin: 0 auto;
+    }
+
+    .navbar-mkr {}
+
+}
