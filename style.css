@@ -658,7 +658,7 @@ margin-bottom: 5px;
     color: #cb0084;
 }
 
-.portfolio-proj-row > div{margin-bottom: 20px;}
+.portfolio-proj-row > div{margin-bottom: 30px;}
 
 /* popup */
 
@@ -671,7 +671,7 @@ margin-bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 90px 0;
+    padding: 20px 0;
     background-color: #000000a1;
     display: none;
     cursor: url(assets/images/cursor.png), auto !important;
@@ -681,7 +681,7 @@ margin-bottom: 5px;
 .popup-image img{
     height: 100%;
     border-radius: 8px;
-    width: 700px;
+    width: 80%;
     object-fit: contain;
 }
 
@@ -710,13 +710,14 @@ margin-bottom: 5px;
 
 .certification-row .project-link{
     padding: 0;
-    height: 240px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0;
     border: 7px solid #fff;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 100%;
+    aspect-ratio: 5/3.4;
 }
 
 .certification-row .project-link img{
@@ -735,4 +736,48 @@ margin-bottom: 5px;
     line-height: 1.2;
 }
 
-.certification-col.col-sm-6{width: 50%;}
+.portfolio-direct-div{
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: center;
+}
+
+.portfolio-mkr {
+    background-color: #F2F2F2;
+    padding: 50px 0;
+}
+
+.portfolio-direct-div{
+    margin: 0 !important;
+}
+
+.redirect-link, .redirect-new{
+    position: relative;
+}
+
+.redirect-link:after, .redirect-new::after{
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    border: 1px solid #1211AA;
+    background-color: #DCDCFF;
+    padding: 0px 10px 0 32px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    background-image: url(assets/images/link-redirect.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.redirect-link:after{
+    content: "Behance";
+}
+
+.redirect-new:after{
+    content: "New Tab";
+}
