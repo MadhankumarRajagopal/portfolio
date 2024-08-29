@@ -119,6 +119,11 @@
 width: 90%;
     }
 
+    .portfolio-mkr .portfolio-proj-row  .row{
+        
+gap: 20px;
+    }
+    
    
 }
 
