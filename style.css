@@ -781,3 +781,7 @@ justify-content: center;
 .redirect-new:after{
     content: "New Tab";
 }
+
+.portfolio-mkr .row {
+    margin: 0;
+}
