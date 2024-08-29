@@ -672,7 +672,7 @@ margin-bottom: 5px;
     justify-content: center;
     align-items: center;
     padding: 90px 0;
-    background-color: #0000004d;
+    background-color: #000000a1;
     display: none;
     cursor: url(assets/images/cursor.png), auto !important;
     z-index: 100;
@@ -706,3 +706,33 @@ margin-bottom: 5px;
 }
 
 .project-link:hover{background-color: #f6f6f6;}
+
+
+.certification-row .project-link{
+    padding: 0;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    border: 7px solid #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.certification-row .project-link img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    border-radius: 0;
+}
+
+.certification-title{
+    font-size: 9px;
+    font-weight: 600;
+    text-align: center;
+    margin: 5px 0 0;
+    line-height: 1.2;
+}
+
+.certification-col.col-sm-6{width: 50%;}
