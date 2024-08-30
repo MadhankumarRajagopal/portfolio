@@ -114,17 +114,17 @@
         bottom: 79%;
     }
 
-    .popup-image img{
-        
-width: 90%;
+    .popup-image img {
+
+        width: 90%;
     }
 
-    .portfolio-mkr .portfolio-proj-row  .row{
-        
-gap: 20px;
+    .portfolio-mkr .portfolio-proj-row .row {
+
+        gap: 20px;
     }
-    
-   
+
+
 }
 
 
@@ -169,19 +169,19 @@ gap: 20px;
 
     /* portfolio */
 
-    .portfolio-body{
-        
-padding-bottom: 100px !important;
+    .portfolio-body {
+
+        padding-bottom: 100px !important;
     }
 
-    
-    .portfolio-tab-flex{
+
+    .portfolio-tab-flex {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .portfolio-tab-flex .nav{
+    .portfolio-tab-flex .nav {
         display: flex;
         flex-direction: row !important;
         flex-wrap: wrap;
@@ -191,7 +191,7 @@ padding-bottom: 100px !important;
         gap: 10px;
     }
 
-    .portfolio-tab-flex .nav-link{
+    .portfolio-tab-flex .nav-link {
         font-size: 14px;
         width: fit-content;
         height: 45px;
@@ -201,7 +201,7 @@ padding-bottom: 100px !important;
         padding: 0 20px;
     }
 
-    .portfolio-tab-flex .tab-content{
+    .portfolio-tab-flex .tab-content {
         margin: 0 !important;
         height: auto;
         overflow: unset;
@@ -211,10 +211,15 @@ padding-bottom: 100px !important;
 
 
 
-@media only screen and (min-width: 992px) and (max-width: 1350px){
-    .portfolio-proj-row > div{
-        
-width: 50% !important;
+@media only screen and (min-width: 992px) and (max-width: 1350px) {
+    .portfolio-proj-row>div {
+
+        width: 50% !important;
+    }
+
+    .portfolio-mkr .portfolio-proj-row>div {
+
+        width: unset !important;
     }
 }
 
