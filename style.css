@@ -789,3 +789,9 @@ justify-content: center;
 .portfolio-mkr .primary-btn {
     margin-top: 20px;
 }
+
+.portfolio-mkr .portfolio-proj-row > .row{
+    display: flex;
+    justify-content: center;
+    gap: 20px 0;
+}
