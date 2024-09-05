@@ -800,3 +800,12 @@ justify-content: center;
     object-fit: contain;
     background-color: #f7f7f7;
 }
+
+.main-link-btn a:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.nav-foot-btn a:hover,
+.social-link a:hover{  
+transform: scale(1.1);
+}
